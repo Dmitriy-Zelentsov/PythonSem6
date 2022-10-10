@@ -4,17 +4,4 @@
 # 2+2 => 4;
 # 1+2*3 => 7;
 # 1-2*3 => -5;
-
-var1 = lambda a, b : a + b
-var2 = lambda a, b : a * b
-var3 = lambda a, b : a - b
-div = lambda a, b : a / b
-
-def result(op, a, b):
-    print(op(a,b))
-
-result(summ, 10, 9)
-result(mult, 10, 9)
-result(sub, 10, 9)
-result(div, 10, 9)
-
+print(eval(input()))
