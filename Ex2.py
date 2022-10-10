@@ -3,7 +3,7 @@
 # Пример:
 # [1, 2, 3, 5, 1, 5, 3, 10] => [2, 10]
 
-# data = 1, 2, 3, 5, 1, 5, 3, 10
-data = list(map(int,input().split()))
-li = list(filter(lambda i:i%2==0,data))
+data = 1, 2, 3, 5, 1, 5, 3, 10
+# data = list(map(int,input().split()))
+li = list(filter(lambda i: data.count(i)==1,data))
 print(li)

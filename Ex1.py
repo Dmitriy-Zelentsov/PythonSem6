@@ -5,9 +5,9 @@
 # 1+2*3 => 7;
 # 1-2*3 => -5;
 
-summ = lambda a, b : a + b
-mult = lambda a, b : a * b
-sub = lambda a, b : a - b
+var1 = lambda a, b : a + b
+var2 = lambda a, b : a * b
+var3 = lambda a, b : a - b
 div = lambda a, b : a / b
 
 def result(op, a, b):
